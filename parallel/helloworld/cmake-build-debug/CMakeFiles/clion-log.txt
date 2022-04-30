@@ -1,0 +1,4 @@
+/snap/clion/189/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/189/bin/ninja/linux/ninja -G Ninja -S /media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworld -B /media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworld/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworld/cmake-build-debug
