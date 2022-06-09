@@ -1,0 +1,3 @@
+/media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworldmpi/cmake-build-debug/CMakeFiles/helloworldmpi.dir
+/media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworldmpi/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/tran/003D94E1B568C6D11/Workingspace/bach_khoa/parallel/helloworldmpi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
