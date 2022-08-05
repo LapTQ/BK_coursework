@@ -4,8 +4,9 @@
 #include<cuda.h>
 
 #define N 32
-#define n_threads 4
 #define n_blocks 8
+#define n_threads 4
+
 
 void __global__ kernelTong2Mang(int *a, int *b, int *c) {
     int index;
@@ -36,8 +37,8 @@ int main(int argc, char *argv[]) {
     cudaMemcpy(b_gpu, b_cpu, N * sizeof(int), cudaMemcpyHostToDevice);
     
     // Define structure: thread, block
-    dim3 dimBlock(n_threads);
     dim3 dimGrid(n_blocks);
+    dim3 dimBlock(n_threads);
     
     // Invoke kernel
     kernelTong2Mang<<<dimGrid, dimBlock>>>(a_gpu, b_gpu, c_gpu);
